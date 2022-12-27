@@ -24,8 +24,8 @@ const DUMMY_PLACES = [
     imageUrl: 'https://picsum.photos/200/300?random=2',
     address: 'Champ de Mars, 5 Av. Anatole France, 75007 Paris, France',
     location: {
-      lat: 51.0707688,
-      lng: -122.849112,
+      lat: 48.8583701,
+      lng: 2.2922926,
     },
     creator: 'u2',
   },
