@@ -8,7 +8,7 @@ const Users = () => {
       id: 'u1',
       name: 'Little Kitten',
       image: 'http://placekitten.com/200/300',
-      places: '3',
+      places: '2',
     },
   ];
 
