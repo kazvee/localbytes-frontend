@@ -38,6 +38,7 @@ export const validate = (value, validators) => {
     if (validator.type === VALIDATOR_TYPE_MAX) {
       isValid = isValid && +value <= validator.val;
     }
+    // TODO enforce lowercase email address for signup and login
     if (validator.type === VALIDATOR_TYPE_EMAIL) {
       isValid = isValid && /^\S+@\S+\.\S+$/.test(value);
     }
